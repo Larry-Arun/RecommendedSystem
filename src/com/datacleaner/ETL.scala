@@ -1,4 +1,4 @@
-package www.dajiangtai.com.datacleaner
+package com.datacleaner
 
 import org.apache.spark._
 import org.apache.spark.rdd._
