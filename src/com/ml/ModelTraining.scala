@@ -1,15 +1,7 @@
 package www.dajiangtai.com.ml
 
-import org.apache.spark._
-import org.apache.spark.rdd._
-import org.apache.spark.sql._
-import org.apache.spark.sql.SaveMode
-import org.apache.spark.sql.hive._
 import org.apache.spark.mllib.recommendation._
 
-import scala.math._
-
-import www.dajiangtai.com.conf.AppConf
 
 object ModelTraining extends AppConf {
   def main(args: Array[String]) {
